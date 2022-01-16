@@ -1,12 +1,3 @@
-#!/usr/bin/env stack
-{- stack --resolver lts-18.21 script
-    --package rock
-    --package hashable
-    --package some
-    --package dependent-sum-template
-    --extra-dep dependent-hashmap-0.1.0.1@sha256:6d1c20bd79f32d8daebd3cc741f884cc3d093118e3b876eb957defd4c594a966,1892
--}
-
 {-# language FlexibleInstances #-}
 {-# language GADTs #-}
 {-# language StandaloneDeriving #-}
