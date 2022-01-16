@@ -1,0 +1,7 @@
+resolver: lts-18.21
+
+packages: [.]
+
+extra-deps:
+  - dependent-hashmap-0.1.0.1@sha256:6d1c20bd79f32d8daebd3cc741f884cc3d093118e3b876eb957defd4c594a966,1892
+  - rock-0.3.1.0@sha256:8eb0840eae3b7cd4d577f597de9f477042ec25c9b624d6bfdc52fe8a489b0624,3591
